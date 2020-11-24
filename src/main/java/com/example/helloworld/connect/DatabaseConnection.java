@@ -8,7 +8,7 @@ import java.sql.Connection;
 import java.sql.*;
 import java.sql.DriverManager;
 
-public class DatabaseConnection extends Singleton {
+public class DatabaseConnection extends Singleton implements QueryBuilderInterface {
 
     private final DatabaseConfiguration configuration;
 
